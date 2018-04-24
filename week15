@@ -1,0 +1,33 @@
+#!/bin/bah
+Change window manager
+
+I chanaged my window manager to Window Maker. Window Maker is an X11 
+window manager originally designed to provide integration support for 
+the GNUstep Desktop Environment. The reason why I chose this window 
+manager linux becuase I using window as my desktop instead of liunx. I 
+dowaland the latest version which is 0.95.8, relaesed on 11.03.2017. 
+When the installtion is finished it, I click on and it brought me to 
+view download-internet explorer. In the action section,I clicked saved 
+and then open. This brought me to the internet explorer page. That's how 
+I changed my window manager.
+Compiled iPXE
+I compiled iPXE on the USB for the compiler on chapter 15. There are 
+many obstaces that I ran to while trying to install this. First I went 
+to ipxe's website to install the version of it without reading the 
+instruction. That is the biggest mistake I made. I went back to the 
+website and read the instruction. The first step I have to do is clone 
+the ipxe's website while using the terminal and then install the 
+packages in order to build iPXE. However, I still couldn't figure it 
+out. I went to asked Pavel for help, since he did the same thing. He 
+told me to go look at his report on this. While looking at his report 
+and try to configured, I still cannot do it. Some steps in the report 
+were unclear. During class, I asked for his help. With his helps, I be 
+able configure it. However, I got to start everything all over again. 
+Configured this at home by myself. I used Pavel's report to guide me 
+through the process. With liblzma, I realzed that in the first place I 
+configure it wrong while looked the report. I used pavel's solution for 
+it and it work. The second error I did was I forgot to turn the 
+https(port 443) on in ipxe/src/config. The last part of it was the guide 
+the ipxe to my home directory for me to be able install it on my USB. I 
+went to ipxe/src/bin and copied "ipxe.iso". I drag that to the USB on 
+rufus.
